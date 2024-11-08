@@ -151,7 +151,7 @@ print(f"Total Movements: {results['total_movements']}")
 print(f"Clean Percentage: {results['clean_percentage']:.2f}%")
 
 # Example of running multiple simulations
-agent_counts = [1, 5, 10, 15, 20, 25]  # Different agent counts
+agent_counts = [5, 10, 15, 20, 25]  # Different agent counts
 dirty_percentage = 0.3
 max_time = 300
 
