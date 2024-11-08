@@ -184,9 +184,9 @@ class CleaningGrid(mesa.space.MultiGrid):
 # Example of running the simulation
 width = 10
 height = 10
-num_agents = 20
+num_agents = 5
 dirty_percentage = 0.3
-max_time = 300
+max_time = 200
 
 model = CleaningModel(width, height, num_agents, dirty_percentage, max_time)
 results = model.run_simulation()
